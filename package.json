@@ -1,0 +1,42 @@
+{
+  "name": "muiish",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.4.0",
+    "classnames": "^2.2.6",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-scripts-ts": "3.1.0",
+    "styled-components": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@storybook/addon-actions": "^4.0.4",
+    "@storybook/addon-info": "^4.0.4",
+    "@storybook/addon-links": "^4.0.4",
+    "@storybook/addons": "^4.0.4",
+    "@storybook/react": "^4.0.4",
+    "@types/classnames": "^2.2.6",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.5",
+    "@types/react": "^16.7.2",
+    "@types/react-dom": "^16.0.9",
+    "@types/storybook__react": "^4.0.0",
+    "@types/styled-components": "^4.0.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  }
+}

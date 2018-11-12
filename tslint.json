@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      ".storybook/**"
+    ]
+  },
+  "rules": {
+    "quotemark": [
+      true,
+      "single",
+      "jsx-single"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "interface-name": false,
+    "member-access": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "ignore"
+      }
+    ],
+    "object-literal-sort-keys": [
+      false
+    ],
+    "no-console": false
+  }
+}
